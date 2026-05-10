@@ -14,7 +14,7 @@ This project implements an end-to-end machine learning pipeline for time-series 
 ## 🏗️ Architecture & Pipeline
 The system follows a structured data science lifecycle optimized for temporal data:
 
-1.  **Synthetic Data Generation:** Engineered a custom data generator using `NumPy` and `Pandas` that incorporates **Yearly Seasonality** (Sine-wave patterns), **Linear Trends**, and **Gaussian Noise** to simulate 1,600 days of environmental readings.
+1.  **Synthetic Data Generation:** Engineered a custom data generator using `NumPy` and `Pandas` that incorporates **Yearly Seasonality** (Sine-wave patterns), **Linear Trends**, and **Gaussian Noise** to simulate days of environmental readings.
 2.  **Data Preprocessing:** Implemented feature scaling using the `MinMaxScaler` from **Scikit-Learn** to normalize data between [0, 1], ensuring stable gradient descent during training.
 3.  **Recurrent Neural Network (RNN):** Built a deep learning model using **TensorFlow/Keras** featuring:
     * **LSTM Layers:** To capture long-term temporal dependencies and solve the vanishing gradient problem.
@@ -25,8 +25,8 @@ The system follows a structured data science lifecycle optimized for temporal da
 
 
 ## 🚀 Key Learning Outcomes
-- **Temporal Modeling:** Mastered the application of **Long Short-Term Memory (LSTM)** units to model data where the sequence and timing are critical.
-- **Feature Engineering:** Gained proficiency in simulating and normalizing complex datasets with multi-layered seasonal and trend components.
+- **Temporal Modeling:** Application of **Long Short-Term Memory (LSTM)** units to model data where the sequence and timing are critical.
+- **Feature Engineering:** Gained proficiency in simulating and normalizing datasets with multi-layered seasonal and trend components.
 - **Predictive Visualization:** Utilized **Matplotlib** to create comparative plots between historical data and future forecasts, facilitating the interpretation of seasonal arcs.
 - **Deep Learning Frameworks:** Advanced skills in **TensorFlow and Keras** for sequential model building, utilizing Adam optimizers and Mean Squared Error (MSE) loss.
 - **Recursive Logic Implementation:** Successfully built a forecasting algorithm that maintains a sliding window of data to predict multiple future time steps.
