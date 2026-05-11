@@ -1,5 +1,5 @@
-# 📈 Deep Learning for Time Series Forecasting: LSTM Network
-Developed a robust predictive model utilizing Long Short-Term Memory (LSTM) networks to forecast seasonal environmental patterns based on historical time-series data.
+# 📈 Time Series Data Project
+Developed a robust predictive model utilizing Long Short-Term Memory (LSTM) networks to forecast seasonal environmental patterns based on the dataset given by the school.
 
 ## 📌 Project Overview
 This project implements an end-to-end machine learning pipeline for time-series analysis and forecasting. It utilizes synthetic data generation to simulate complex seasonal environmental patterns, processes the data through recursive deep learning architectures, and visualizes 30-day future forecasts with high accuracy.
